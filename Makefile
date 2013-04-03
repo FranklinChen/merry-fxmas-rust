@@ -10,4 +10,7 @@ $(RESULT):	main.rs
 run:	$(RESULT)
 	$(RESULT)
 
-.PHONY:	all run
+clean:
+	-rm -rf main.dSYM
+
+.PHONY:	all run clean
