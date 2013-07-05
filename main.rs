@@ -6,7 +6,7 @@ macro_rules! repeat_greeting(
     ) => (
         {
             $(
-                io::println(fmt!("Merry Christmas Bill %d!", $n));
+                println(fmt!("Merry Christmas Bill %d!", $n));
             )*
         }
     )
