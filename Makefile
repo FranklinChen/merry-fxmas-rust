@@ -11,6 +11,6 @@ run:	$(RESULT)
 	$(RESULT)
 
 clean:
-	-rm -rf main.dSYM
+	-rm -rf main main.dSYM
 
 .PHONY:	all run clean
