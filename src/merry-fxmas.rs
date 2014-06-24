@@ -14,7 +14,9 @@ macro_rules! repeat_greeting(
     )
 )
 
+/**
+  Say Merry Christmas to Bill from 25 to 1.
+*/
 fn main() {
-    #![doc = "Say Merry Christmas to Bill from 25 to 1."]
-    repeat_greeting!(25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1);
+    repeat_greeting!(25i 24i 23i 22i 21i 20i 19i 18i 17i 16i 15i 14i 13i 12i 11i 10i 9i 8i 7i 6i 5i 4i 3i 2i 1i);
 }
