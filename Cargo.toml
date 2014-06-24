@@ -1,0 +1,9 @@
+[package]
+
+name = "merry-fxmas"
+version = "0.1.0"
+authors = ["franklinchen@franklinchen.com"]
+
+[[bin]]
+
+name = "merry-fxmas"

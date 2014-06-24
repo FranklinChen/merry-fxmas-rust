@@ -1,21 +1,12 @@
-# merry-fxmas
+# merry-fxmas in Rust
 
-Say "Merry Christmas" 25 times, using a syntactic macro in [Rust](http://www.rust-lang.org/).
-
-Tested with Rust 0.10.
+Say "Merry Christmas" to Bill 25 times, using a syntactic macro in [Rust](http://www.rust-lang.org/).
 
 ## Usage
 
-Edit `Makefile` to point to where you installed the Rust compiler `rustc`.
+Make sure to have a recent version of Rust installed, and also [Cargo](https://github.com/rust-lang/cargo) installed.
 
-To compile:
-
-``` console
-$ make
 ```
-
-To see the output:
-
-``` console
-$ make run
+$ cargo build
+$ ./target/merry-fxmas
 ```
