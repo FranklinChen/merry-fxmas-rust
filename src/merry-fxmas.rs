@@ -12,7 +12,7 @@ macro_rules! repeat_greeting(
             )*
         }
     )
-)
+);
 
 /**
   Say Merry Christmas to Bill from 25 to 1.
