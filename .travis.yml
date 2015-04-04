@@ -1,7 +1,7 @@
 language: rust
-script:
-  - cargo build --verbose
-  - cargo test --verbose
+rust:
+  - nightly
+  - 1.0.0-beta
 notifications:
   email:
     recipients:
