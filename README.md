@@ -6,9 +6,6 @@ Say "Merry Christmas" to Bill 25 times, using a syntactic macro in [Rust](http:/
 
 ## Usage
 
-Make sure to have a recent version (for now, this means nightly build is best) of Rust installed, and also [Cargo](https://github.com/rust-lang/cargo) installed.
-
 ```
-$ cargo build
-$ ./target/merry-fxmas
+$ cargo run
 ```
