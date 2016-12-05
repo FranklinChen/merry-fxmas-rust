@@ -16,5 +16,5 @@ macro_rules! repeat_greeting {
   Say Merry Christmas to Bill from 25 to 1.
 */
 fn main() {
-    repeat_greeting!(25i32 24i32 23i32 22i32 21i32 20i32 19i32 18i32 17i32 16i32 15i32 14i32 13i32 12i32 11i32 10i32 9i32 8i32 7i32 6i32 5i32 4i32 3i32 2i32 1i32);
+    repeat_greeting!(25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1);
 }
