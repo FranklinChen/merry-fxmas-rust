@@ -3,3 +3,9 @@
 name = "merry-fxmas"
 version = "0.1.0"
 authors = ["Franklin Chen <franklinchen@franklinchen.com>"]
+description = "Say Merry Christmas to Bill 25 times, using macro"
+homepage = "https://github.com/FranklinChen/merry-fxmas-rust"
+repository = "https://github.com/FranklinChen/merry-fxmas-rust"
+readme = "README.md"
+license = "MIT"
+edition = "2018"
